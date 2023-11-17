@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Auto">
+      <UniqueIdentifier>{ff54c412-0322-4838-bbb3-118e31c77309}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Thread">
+      <UniqueIdentifier>{d39e9f4c-8b19-49ab-aa54-73a2c1f28736}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lambda">
+      <UniqueIdentifier>{3a44d598-85b8-4598-95c1-93bbea6ec2cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SmartPtr">
+      <UniqueIdentifier>{29e53c8d-7e0f-4f10-8491-b7a54d0aec6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STL">
+      <UniqueIdentifier>{3f1f3821-00cb-49ce-9ffa-6545fdccb360}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class">
+      <UniqueIdentifier>{a780f78c-c225-4acc-878f-172646a49d4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base">
+      <UniqueIdentifier>{3d1b01c8-368e-4601-9fbc-d384123a1f05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STL\Allocator">
+      <UniqueIdentifier>{51809110-5f09-498f-b83a-a151345a5958}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cpp11Test.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Auto\AutoTest.h">
+      <Filter>Auto</Filter>
+    </ClCompile>
+    <ClCompile Include="Thread\DyThread.cpp">
+      <Filter>Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="Lambda\DyLambda.cpp">
+      <Filter>Lambda</Filter>
+    </ClCompile>
+    <ClCompile Include="SmartPtr\DyUniquePtr.cpp">
+      <Filter>SmartPtr</Filter>
+    </ClCompile>
+    <ClCompile Include="STL\Container.cpp">
+      <Filter>STL</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Parent.cpp">
+      <Filter>Class</Filter>
+    </ClCompile>
+    <ClCompile Include="Class\Child.cpp">
+      <Filter>Class</Filter>
+    </ClCompile>
+    <ClCompile Include="SmartPtr\DySharePtr.cpp">
+      <Filter>SmartPtr</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Thread\DyThread.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="Lambda\DyLambda.h">
+      <Filter>Lambda</Filter>
+    </ClInclude>
+    <ClInclude Include="SmartPtr\DyUniquePtr.h">
+      <Filter>SmartPtr</Filter>
+    </ClInclude>
+    <ClInclude Include="Thread\ThreadPool.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="STL\Container.h">
+      <Filter>STL</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Parent.h">
+      <Filter>Class</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\Child.h">
+      <Filter>Class</Filter>
+    </ClInclude>
+    <ClInclude Include="Class\classMain.h">
+      <Filter>Class</Filter>
+    </ClInclude>
+    <ClInclude Include="Thread\threadMain.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="STL\stlMain.h">
+      <Filter>STL</Filter>
+    </ClInclude>
+    <ClInclude Include="SmartPtr\smartMain.h">
+      <Filter>SmartPtr</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\BaseMain.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\using.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="SmartPtr\DySharePtr.h">
+      <Filter>SmartPtr</Filter>
+    </ClInclude>
+    <ClInclude Include="STL\Allocator\DyAllocator.h">
+      <Filter>STL\Allocator</Filter>
+    </ClInclude>
+    <ClInclude Include="qcFuture.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
