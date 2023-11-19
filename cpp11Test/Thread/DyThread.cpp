@@ -32,6 +32,9 @@ void DyThread::init()
 	};
 	func f2 = thread_function;
 	std::thread t(f2, 1);
+
+	std::thread t1(lam, 2);
 	std::cout << "main thread\n";
 	t.join();
+	t1.join();
 }

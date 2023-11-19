@@ -22,7 +22,7 @@ namespace StlMain {
     void testAllocate()
     {
         int a[5] = { 0,1,2,3,4 };
-        unsigned int i;
+        //unsigned int i;
 
         //std::vector<int, dy::allocator<int>> iv(a, a + 5);
         //for ( i = 0; i < iv.size(); i++)

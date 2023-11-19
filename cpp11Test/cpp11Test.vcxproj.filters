@@ -37,6 +37,12 @@
     <Filter Include="STL\Allocator">
       <UniqueIdentifier>{51809110-5f09-498f-b83a-a151345a5958}</UniqueIdentifier>
     </Filter>
+    <Filter Include="SmartPtr\qcSmartPtr">
+      <UniqueIdentifier>{3a054c82-84e5-402c-9b58-46fcef9c85c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SmartPtr\test">
+      <UniqueIdentifier>{3a2595ff-288c-4ae1-9a68-6b7931493651}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="cpp11Test.cpp">
@@ -65,6 +71,9 @@
     </ClCompile>
     <ClCompile Include="SmartPtr\DySharePtr.cpp">
       <Filter>SmartPtr</Filter>
+    </ClCompile>
+    <ClCompile Include="SmartPtr\test\testClass.cpp">
+      <Filter>SmartPtr\test</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -115,6 +124,18 @@
     </ClInclude>
     <ClInclude Include="qcFuture.h">
       <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="SmartPtr\qcSmartPtr\qc_unique_ptr.h">
+      <Filter>SmartPtr\qcSmartPtr</Filter>
+    </ClInclude>
+    <ClInclude Include="SmartPtr\qcSmartPtr\qc_share_ptr.h">
+      <Filter>SmartPtr\qcSmartPtr</Filter>
+    </ClInclude>
+    <ClInclude Include="SmartPtr\qcSmartPtr\qc_weak_ptr.h">
+      <Filter>SmartPtr\qcSmartPtr</Filter>
+    </ClInclude>
+    <ClInclude Include="SmartPtr\test\testClass.h">
+      <Filter>SmartPtr\test</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

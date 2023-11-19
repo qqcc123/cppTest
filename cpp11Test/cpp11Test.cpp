@@ -18,11 +18,11 @@ int main()
 
     //ThreadMain::start();
 
-    BaseMain::start();
+    //BaseMain::start();
 
     //ClassMain::start();
 
-    //SmartMain::start();
+    SmartMain::start();
 }
 
 
