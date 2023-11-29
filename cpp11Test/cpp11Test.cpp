@@ -5,6 +5,7 @@
 #include "Class/classMain.h"
 #include "Base/BaseMain.h"
 #include "SmartPtr/smartMain.h"
+#include "DesignPattern/DesignPatternMain.h"
 
 using namespace AutoTest;
 
@@ -22,7 +23,20 @@ int main()
 
     //ClassMain::start();
 
+    //DesignPattern::start();
+
     SmartMain::start();
+
+    std::string a = "absdfa";
+    std::string b = "bfd";
+    std::sort(a.begin(), a.end());
+    std::sort(b.begin(), b.end());
+    std::cout << a << std::endl;
+    std::cout << b << std::endl;
+    int x = a.find(b);
+    std::cout << x << std::endl;
+
+    system("pause");
 }
 
 

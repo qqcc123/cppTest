@@ -87,7 +87,7 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
@@ -158,6 +158,9 @@
     <ClInclude Include="Class\Child.h" />
     <ClInclude Include="Class\classMain.h" />
     <ClInclude Include="Class\Parent.h" />
+    <ClInclude Include="DesignPattern\AdapterPattern.h" />
+    <ClInclude Include="DesignPattern\DesignPatternMain.h" />
+    <ClInclude Include="DesignPattern\ObserverPattern.h" />
     <ClInclude Include="Lambda\DyLambda.h" />
     <ClInclude Include="qcFuture.h" />
     <ClInclude Include="SmartPtr\DySharePtr.h" />

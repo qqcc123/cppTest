@@ -43,6 +43,9 @@
     <Filter Include="SmartPtr\test">
       <UniqueIdentifier>{3a2595ff-288c-4ae1-9a68-6b7931493651}</UniqueIdentifier>
     </Filter>
+    <Filter Include="DesignPattern">
+      <UniqueIdentifier>{7be8f9f5-07cf-432a-8715-c69e6bb6984a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="cpp11Test.cpp">
@@ -136,6 +139,15 @@
     </ClInclude>
     <ClInclude Include="SmartPtr\test\testClass.h">
       <Filter>SmartPtr\test</Filter>
+    </ClInclude>
+    <ClInclude Include="DesignPattern\AdapterPattern.h">
+      <Filter>DesignPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="DesignPattern\DesignPatternMain.h">
+      <Filter>DesignPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="DesignPattern\ObserverPattern.h">
+      <Filter>DesignPattern</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

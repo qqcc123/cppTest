@@ -4,7 +4,7 @@
 #include "DyUniquePtr.h"
 #include "test/testClass.h"
 #include "qcSmartPtr/qc_unique_ptr.h"
-
+#include "DySharePtr.h"
 
 namespace SmartMain {
 
@@ -41,7 +41,9 @@ namespace SmartMain {
 	{
 		std::cout << "SmartMain::start " << std::endl;
 
-		testQcUniquePtr();
+		//testQcUniquePtr();
+
+		DySharePtr* p = new DySharePtr();
 
 		return;
 
