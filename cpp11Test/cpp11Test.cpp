@@ -23,18 +23,18 @@ int main()
 
     //ClassMain::start();
 
-    //DesignPattern::start();
+    DesignPattern::start();
 
     SmartMain::start();
 
-    std::string a = "absdfa";
-    std::string b = "bfd";
-    std::sort(a.begin(), a.end());
-    std::sort(b.begin(), b.end());
-    std::cout << a << std::endl;
-    std::cout << b << std::endl;
-    int x = a.find(b);
-    std::cout << x << std::endl;
+    //std::string a = "absdfa";
+    //std::string b = "bfd";
+    //std::sort(a.begin(), a.end());
+    //std::sort(b.begin(), b.end());
+    //std::cout << a << std::endl;
+    //std::cout << b << std::endl;
+    //int x = a.find(b);
+    //std::cout << x << std::endl;
 
     system("pause");
 }

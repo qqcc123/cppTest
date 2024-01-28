@@ -149,5 +149,14 @@
     <ClInclude Include="DesignPattern\ObserverPattern.h">
       <Filter>DesignPattern</Filter>
     </ClInclude>
+    <ClInclude Include="DesignPattern\bridgePattern.h">
+      <Filter>DesignPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="DesignPattern\compositePattern.h">
+      <Filter>DesignPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="DesignPattern\PrototypePattern.h">
+      <Filter>DesignPattern</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

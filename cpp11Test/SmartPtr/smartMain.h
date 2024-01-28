@@ -43,11 +43,15 @@ namespace SmartMain {
 
 		//testQcUniquePtr();
 
-		DySharePtr* p = new DySharePtr();
+		//SmartPointerDemo();
+
+		//DySharePtr* p = new DySharePtr();
+
+		DyUniquePtr ptr;
 
 		return;
 
-		DyUniquePtr ptr;
+		
 	}
 
 	

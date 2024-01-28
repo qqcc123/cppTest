@@ -8,6 +8,3 @@ namespace AutoTest {
 		return a + b;
 	}
 }
-
-
-
