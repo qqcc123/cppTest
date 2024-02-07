@@ -17,15 +17,15 @@ int main()
 
     //ClassMain::start();
 
-    //ThreadMain::start();
+    ThreadMain::start();
 
     //BaseMain::start();
 
     //ClassMain::start();
 
-    DesignPattern::start();
+    //DesignPattern::start();
 
-    SmartMain::start();
+    //SmartMain::start();
 
     //std::string a = "absdfa";
     //std::string b = "bfd";

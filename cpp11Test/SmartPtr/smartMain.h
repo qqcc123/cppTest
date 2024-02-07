@@ -5,6 +5,7 @@
 #include "test/testClass.h"
 #include "qcSmartPtr/qc_unique_ptr.h"
 #include "DySharePtr.h"
+#include "DyWeakPtr.h"
 
 namespace SmartMain {
 
@@ -47,7 +48,10 @@ namespace SmartMain {
 
 		//DySharePtr* p = new DySharePtr();
 
-		DyUniquePtr ptr;
+		DyWeakPtr weakPtr;
+		weakPtr.RunTest();
+
+		//DyUniquePtr ptr;
 
 		return;
 

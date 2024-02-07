@@ -78,6 +78,12 @@
     <ClCompile Include="SmartPtr\test\testClass.cpp">
       <Filter>SmartPtr\test</Filter>
     </ClCompile>
+    <ClCompile Include="SmartPtr\DyWeakPtr.cpp">
+      <Filter>SmartPtr</Filter>
+    </ClCompile>
+    <ClCompile Include="Thread\AsyncTask.cpp">
+      <Filter>Thread</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Thread\DyThread.h">
@@ -157,6 +163,12 @@
     </ClInclude>
     <ClInclude Include="DesignPattern\PrototypePattern.h">
       <Filter>DesignPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="SmartPtr\DyWeakPtr.h">
+      <Filter>SmartPtr</Filter>
+    </ClInclude>
+    <ClInclude Include="Thread\AsyncTask.h">
+      <Filter>Thread</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

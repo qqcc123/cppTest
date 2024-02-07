@@ -148,8 +148,10 @@
     <ClCompile Include="Lambda\DyLambda.cpp" />
     <ClCompile Include="SmartPtr\DySharePtr.cpp" />
     <ClCompile Include="SmartPtr\DyUniquePtr.cpp" />
+    <ClCompile Include="SmartPtr\DyWeakPtr.cpp" />
     <ClCompile Include="SmartPtr\test\testClass.cpp" />
     <ClCompile Include="STL\Container.cpp" />
+    <ClCompile Include="Thread\AsyncTask.cpp" />
     <ClCompile Include="Thread\DyThread.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -168,6 +170,7 @@
     <ClInclude Include="qcFuture.h" />
     <ClInclude Include="SmartPtr\DySharePtr.h" />
     <ClInclude Include="SmartPtr\DyUniquePtr.h" />
+    <ClInclude Include="SmartPtr\DyWeakPtr.h" />
     <ClInclude Include="SmartPtr\qcSmartPtr\qc_share_ptr.h" />
     <ClInclude Include="SmartPtr\qcSmartPtr\qc_unique_ptr.h" />
     <ClInclude Include="SmartPtr\qcSmartPtr\qc_weak_ptr.h" />
@@ -176,6 +179,7 @@
     <ClInclude Include="STL\Allocator\DyAllocator.h" />
     <ClInclude Include="STL\Container.h" />
     <ClInclude Include="STL\stlMain.h" />
+    <ClInclude Include="Thread\AsyncTask.h" />
     <ClInclude Include="Thread\DyThread.h" />
     <ClInclude Include="Thread\threadMain.h" />
     <ClInclude Include="Thread\ThreadPool.h" />

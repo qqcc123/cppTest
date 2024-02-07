@@ -57,7 +57,6 @@ inline ThreadPool::ThreadPool(size_t threads)
 				
 				task();
 			}
-
 		});
 }
 
@@ -65,11 +64,11 @@ template<class F, class... Args>
 auto ThreadPool::enqueue(F&& f, Args&&... args)
 	->std::future<typename std::result_of<F(Args...)>::type>
 {
-	using return_type = typename std::result_of<F(Args...)>::type;
+	using return_type = typename std::result_of<F(Args...)>::type; 
 
-	auto task = std::make_shared< std::packaged_task<return_type()> >(
+	auto task = std::make_shared<std::packaged_task<return_type()>>(
 		std::bind(std::forward<F>(f), std::forward<Args>(args)...)
-		);
+	);
 
 	std::future<return_type> res = task->get_future();
 
@@ -80,7 +79,7 @@ auto ThreadPool::enqueue(F&& f, Args&&... args)
 			throw std::runtime_error("enqueue on stopped ThreadPool");
 		}
 			
-		this->works.emplace_back([task] () {
+		this->tasks.emplace([task] () {
 			(*task)();
 		});
 	}
@@ -101,7 +100,6 @@ ThreadPool::~ThreadPool()
 	for (std::thread& it : works)
 	{
 		it.join();
-
 	}
 }
 
