@@ -21,6 +21,10 @@ MOC 预处理：当你的 Qt 项目构建时，qmake 会生成 makefile，并且 qmake 会检测到含有
 因此，静态加载和动态加载 DLL 的地址可能并不相同，具体取决于操作系统的内存管理策略和程序的调用情况。
 */
 
+/*
+https://oicebot.github.io/2020/03/20/c-compilers-explained.html (c++编译链接过程)
+*/
+
 
 int main(int argc, char *argv[])
 {

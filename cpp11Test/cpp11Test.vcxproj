@@ -166,6 +166,7 @@
     <ClInclude Include="DesignPattern\DesignPatternMain.h" />
     <ClInclude Include="DesignPattern\ObserverPattern.h" />
     <ClInclude Include="DesignPattern\PrototypePattern.h" />
+    <ClInclude Include="DesignPattern\StrategyPattern.h" />
     <ClInclude Include="Lambda\DyLambda.h" />
     <ClInclude Include="qcFuture.h" />
     <ClInclude Include="SmartPtr\DySharePtr.h" />

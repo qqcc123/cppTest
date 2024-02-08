@@ -170,5 +170,8 @@
     <ClInclude Include="Thread\AsyncTask.h">
       <Filter>Thread</Filter>
     </ClInclude>
+    <ClInclude Include="DesignPattern\StrategyPattern.h">
+      <Filter>DesignPattern</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

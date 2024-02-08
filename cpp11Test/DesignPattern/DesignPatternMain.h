@@ -5,6 +5,7 @@
 #include "compositePattern.h"
 #include "bridgePattern.h"
 #include "PrototypePattern.h"
+#include "StrategyPattern.h"
 #include <memory>
 
 namespace DesignPattern {
@@ -102,6 +103,17 @@ namespace DesignPattern {
 		PrototypeFactory* prototype_factory = new PrototypeFactory();
 		Client(*prototype_factory);
 		delete prototype_factory;
+	}
+
+	void testStrategyPattern()
+	{
+		Context context(std::make_unique<ConcreteStrategyA>());
+		std::cout << "Client: Strategy is set to normal sorting.\n";
+		context.doSomeBusinessLogic();
+		std::cout << "\n";
+		std::cout << "Client: Strategy is set to reverse sorting.\n";
+		context.set_strategy(std::make_unique<ConcreteStrategyB>());
+		context.doSomeBusinessLogic();
 	}
 
 	void start()

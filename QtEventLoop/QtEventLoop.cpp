@@ -7,4 +7,6 @@ QtEventLoop::QtEventLoop(QWidget *parent)
 }
 
 QtEventLoop::~QtEventLoop()
-{}
+{
+
+}
