@@ -114,6 +114,9 @@ namespace DesignPattern {
 		std::cout << "Client: Strategy is set to reverse sorting.\n";
 		context.set_strategy(std::make_unique<ConcreteStrategyB>());
 		context.doSomeBusinessLogic();
+
+		std::unique_ptr<ConcreteStrategyA> a = std::make_unique<ConcreteStrategyA>();
+		context.set_strategy(std::move(a));
 	}
 
 	void start()

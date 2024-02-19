@@ -72,6 +72,7 @@ public:
         return result;
     }
 };
+
 class ConcreteStrategyB : public Strategy
 {
     std::string doAlgorithm(std::string data) const override
